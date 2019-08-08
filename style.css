@@ -1,3 +1,15 @@
-h1{
-  color: red;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 1280px;
+  height: 800px;
+  margin: 0 auto ;
+  background-image: url(images/background@2x.png);
+  background-size: 1280px 252px;
+  background-repeat: no-repeat; /*繰り返しを中止*/
+  position: relative;
+  overflow: hidden;
 }
