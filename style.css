@@ -47,6 +47,12 @@
   outline: none;
   border: none;
   cursor: pointer;
+  opacity: 0.7;
+  transition: 300ms;
+}
+
+#btn-start:hover{
+  opacity: 1;
 }
 
 /* 結果画面 */
