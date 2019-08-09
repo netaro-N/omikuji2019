@@ -50,6 +50,11 @@
 }
 
 /* 結果画面 */
+.result-screen,
+.result{
+  display: none;
+}
+
 .charactor{
   z-index: 1;
 }
@@ -72,4 +77,15 @@
   top: 582px;
   right: 48px;
   z-index: 1;
+}
+
+/* ボタンアニメーション */
+.fuwafuwa {
+  animation:fuwafuwa 2s infinite ease-in-out alternate;
+}
+
+@keyframes fuwafuwa {
+  0% {transform:translate(-50%,0);}
+  50% {transform:translate(-50%,-10px);}
+  100% {transform:translate(-50%,0);}
 }
