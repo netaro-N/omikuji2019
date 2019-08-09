@@ -13,3 +13,37 @@
   position: relative;
   overflow: hidden;
 }
+
+.layer{
+  position: absolute;
+}
+
+#logo-customcast{
+  z-index: 2;
+  top: 10px;
+  left: 10px;
+}
+
+#start-charactor{
+  z-index: 1;
+}
+
+#logo{
+  z-index: 3;
+  top: 324px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#btn-start{
+  z-index: 2;
+  bottom: 47px;
+  left: 50%;
+  transform: translateX(-50%);
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
