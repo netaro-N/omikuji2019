@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* 背景 */
 #app {
   width: 1280px;
   height: 800px;
@@ -14,6 +14,7 @@
   overflow: hidden;
 }
 
+/* 背景以外のトップページ画像 */
 .layer{
   position: absolute;
 }
@@ -46,4 +47,29 @@
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+/* 結果画面 */
+.charactor{
+  z-index: 1;
+}
+
+.omikuji{
+  top: 20px;
+  right: 40px;
+  z-index: 2;
+}
+
+.textarea{
+  width: 1200px;
+  height: 248px;
+  background: #E8556A;
+  color: #fff;
+  font-size: 60px;
+  border-radius: 30px 30px 0 0;
+  padding: 20px 80px;
+  box-sizing: border-box;
+  top: 582px;
+  right: 48px;
+  z-index: 1;
 }
