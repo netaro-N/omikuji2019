@@ -27,6 +27,14 @@
         omikuji[random].show();
         omikuji[random].addClass("animated bounceInUp");
       }, 4000)
+      // 戻る
+      setTimeout(function () {
+        $("#btn-back").show();
+        $("#btn-back").addClass("animated slideInUp faster");
+      }, 6000)
+    })
+    $("#btn-back").on("click", function () {
+      location.reload();
     })
   })
 

@@ -127,3 +127,20 @@
   font-size: 72px;
   font-family: "Nico Moji";
 }
+
+/*戻るボタン*/
+
+#result-btn{
+}
+
+#btn-back{
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  display: none;
+  font-size: 60px;
+  padding: 0.5rem 2rem;
+  border: 0;
+  background: #541900;
+  color: #fff;
+}
