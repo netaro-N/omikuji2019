@@ -95,3 +95,35 @@
   50% {transform:translate(-50%,-10px);}
   100% {transform:translate(-50%,0);}
 }
+
+/* 画面表示切り替えアニメーション */
+#slide{
+  width: 1280px;
+  height: 0;
+  background: #E8556A;
+  z-index: 5;
+  left: 0;
+  bottom: 0;
+  transition: 500ms;
+}
+
+.open{
+  height: 800px !important;
+}
+
+.close{
+  top: 0 !important;
+  left: 0 !important;
+  height: 0 !important;
+}
+
+#loading{
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #E8556A;
+  z-index: 5;
+  font-size: 72px;
+  font-family: "Nico Moji";
+}
